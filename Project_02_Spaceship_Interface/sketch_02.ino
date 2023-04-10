@@ -18,7 +18,8 @@ void loop() {
     digitalWrite(4, HIGH);
     digitalWrite(5, LOW);
     delay(500);
-  } else { //Green LED on, Red LEDs off 
+  } 
+  else { //Green LED on, Red LEDs off 
     digitalWrite(3, HIGH);
     digitalWrite(4, LOW);
     digitalWrite(5, LOW);
